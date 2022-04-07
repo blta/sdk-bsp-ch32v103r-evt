@@ -1,0 +1,185 @@
+board:
+  buy_url_cn: https://item.taobao.com/item.htm?spm=a1z09.2.0.0.35c62e8d1grbJk&id=651789251777&_u=skggokna512
+  buy_url_global: https://item.taobao.com/item.htm?spm=a1z09.2.0.0.35c62e8d1grbJk&id=651789251777&_u=skggokna512
+  debug_interface: SWD
+  debugger: J-Link
+  description_en: CH32V103R-EVT has inluded the WCH-Link and CH32V103R8T6 minimum
+    system kit
+  description_zh: CH32V103R-EVT包含WCH-LinK和CH32V103R8T6最小系统评估版
+  emulator_machine: ''
+  large_image: documents/images/2022-03-27_182600.bmp
+  name: CH32V103R-EVT
+  price_cn: 58 CNY
+  price_global: 100 USD
+  sale_contact_cn: http://www.wch.cn/products/CH32V103.html?
+  sale_contact_global: http://www.wch.cn/products/CH32V103.html?
+  small_image: documents/images/2022-03-27_182301.bmp
+  vendor: WCH
+  version: '1.0'
+chip:
+  chip_name: CH32V103R8T6
+  clock_source: HSE
+  device_vendor: WCH
+  family_name: CH32V
+  rx_name: PA10
+  series_name: CH32V1
+  source_freq: '8000000'
+  sub_series_name: CH32V103
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/CH32V103评估板说明书.pdf
+  title: CH32V103评估板说明书
+- category: sheet
+  file: documents/CH32V103DS0.PDF
+  title: CH32V103DS0
+- category: other
+  file: documents/CH32V103SCH.pdf
+  title: CH32V103SCH
+example_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .config.old
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - .template
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - SConscript
+    - SConstruct
+    source_path_offset: project_2
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: LED and MSH
+  project_name: CH32V103R-EVT-LED
+  project_type: rt-thread|@full|@latest
+features:
+- Highland barley V3A processor, with a maximum system frequency of 80MHz
+- Support single cycle multiplication and hardware division
+- 20KB SRAM，64KB CodeFlash
+- 'Power supply range: 2.7V ~ 5.5V, GPIO synchronous power supply voltage'
+- 'Multiple low power consumption modes: sleep / stop / standby'
+- Power on / power off reset (POR / PDR)
+- Programmable voltage monitor (PVD)
+- 7-channel DMA controller
+- 16 touchkey channel monitoring
+- '16 channel 12 bit ADC conversion channel '
+- 7 timers
+- 1 USB2 0 host / equipment interface (full speed and low speed)
+- 2 IIC interfaces (support SMBus / pmbus)
+- 3 USART interfaces
+- 2 SPI interfaces (supporting master and slave modes)
+- 51 I / O ports, all of which can be mapped to 16 external interrupts
+- CRC computing unit, 96 bit chip unique ID
+- Serial single line commissioning (SWD) interface
+- 'Packaging form: lqfp64m, lqfp48, qfn48'
+features_zh:
+- 青稞V3A处理器，最高80MHz系统主频
+- 支持单周期乘法和硬件除法
+- 20KB SRAM，64KB CodeFlash
+- ' 供电范围：2.7V ~ 5.5V，GPIO同步供电电压'
+- 多种低功耗模式：睡眠/停止/待机
+- 上电/断电复位（POR/PDR
+- 可编程电压监测器（PVD）
+- 7通道DMA控制器
+- 16路TouchKey通道监测
+- 16路12位ADC转换通道
+- ' 7个定时器'
+- ' 1个USB2.0主机/设备接口（全速和低速）'
+- 2个IIC接口（支持SMBus/PMBus
+- 3个USART接口
+- 2个SPI接口（支持Master和Slave模式
+- 51个I/O口，所有的I/O口都可以映射到16个外部中断
+- CRC计算单元，96位芯片唯一ID
+- 串行单线调试（SWD）接口
+- ' 封装形式：LQFP64M、LQFP48、QFN48'
+pkg_type: Board_Support_Packages
+pkg_vendor: Blta
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .config.old
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - .template
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - SConscript
+    - SConstruct
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files: []
+  project_description: Template
+  project_name: CH32V103R-EVT-Demo
+  project_type: rt-thread|@full|@4.0.4
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .config.old
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - .template
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - SConscript
+    - SConstruct
+    source_path_offset: project_1
+    target_path_offset: ''
+  external_files: []
+  project_description: latest
+  project_name: latest
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
