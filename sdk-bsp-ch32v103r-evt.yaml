@@ -2,10 +2,9 @@ board:
   buy_url_cn: https://item.taobao.com/item.htm?spm=a1z09.2.0.0.35c62e8d1grbJk&id=651789251777&_u=skggokna512
   buy_url_global: https://item.taobao.com/item.htm?spm=a1z09.2.0.0.35c62e8d1grbJk&id=651789251777&_u=skggokna512
   debug_interface: SWD
-  debugger: J-Link
-  description_en: CH32V103R-EVT has inluded the WCH-Link and CH32V103R8T6 minimum
-    system kit
-  description_zh: CH32V103R-EVT包含WCH-LinK和CH32V103R8T6最小系统评估版
+  debugger: WCH-LINK
+  description_en: support WCH-LINK
+  description_zh: 支持WCH-LINK
   emulator_machine: ''
   large_image: documents/images/2022-03-27_182600.bmp
   name: CH32V103R-EVT
@@ -124,7 +123,7 @@ features_zh:
 - ' 封装形式：LQFP64M、LQFP48、QFN48'
 pkg_type: Board_Support_Packages
 pkg_vendor: Blta
-pkg_version: 1.0.0
+pkg_version: 1.0.1
 template_projects:
 - builtin_files:
   - files_and_folders:
