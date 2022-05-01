@@ -37,50 +37,7 @@ docs:
 - category: other
   file: documents/CH32V103SCH.pdf
   title: CH32V103SCH
-example_projects:
-- builtin_files:
-  - files_and_folders:
-    - .config
-    - .config.old
-    - .cproject
-    - .gitignore
-    - .project
-    - .settings
-    - .template
-    - applications
-    - board
-    - cconfig.h
-    - figures
-    - Kconfig
-    - libraries
-    - makefile.targets
-    - README.md
-    - rtconfig.h
-    - rtconfig.py
-    - SConscript
-    - SConstruct
-    source_path_offset: project_2
-    target_path_offset: ''
-  external_files:
-  - files_and_folders:
-    - components
-    - include
-    - libcpu/arm
-    - libcpu/Kconfig
-    - libcpu/SConscript
-    - src
-    - tools
-    - Kconfig
-    - LICENSE
-    package_name: RT-Thread
-    package_type: RT-Thread_Source_Code
-    package_vendor: ''
-    package_version: latest
-    source_path_offset: rt-thread
-    target_path_offset: rt-thread
-  project_description: LED and MSH
-  project_name: CH32V103R-EVT-LED
-  project_type: rt-thread|@full|@latest
+example_projects: []
 features:
 - Highland barley V3A processor, with a maximum system frequency of 80MHz
 - Support single cycle multiplication and hardware division
@@ -141,6 +98,7 @@ template_projects:
     - Kconfig
     - libraries
     - makefile.targets
+    - packages
     - README.md
     - rt-thread
     - rtconfig.h
@@ -150,35 +108,7 @@ template_projects:
     source_path_offset: project_0
     target_path_offset: ''
   external_files: []
-  project_description: Template
-  project_name: CH32V103R-EVT-Demo
-  project_type: rt-thread|@full|@4.0.4
-- builtin_files:
-  - files_and_folders:
-    - .config
-    - .config.old
-    - .cproject
-    - .gitignore
-    - .project
-    - .settings
-    - .template
-    - applications
-    - board
-    - cconfig.h
-    - figures
-    - Kconfig
-    - libraries
-    - makefile.targets
-    - README.md
-    - rt-thread
-    - rtconfig.h
-    - rtconfig.py
-    - SConscript
-    - SConstruct
-    source_path_offset: project_1
-    target_path_offset: ''
-  external_files: []
-  project_description: latest
-  project_name: latest
-  project_type: rt-thread|@full|@latest
+  project_description: ch32v103r-evt demo project
+  project_name: ch32v103r-evt-demo
+  project_type: rt-thread|@full|@4.1.0
 yaml_version: 3
